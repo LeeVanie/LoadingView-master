@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cxy.com.loadingview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".timezhou.HorizontalActivity"/>
+        <activity android:name=".download.DownLoadActivity"/>
+        <activity android:name=".flow01.FlowMainActivity"/>
+        <activity android:name=".loading.LoadMainActivity"/>
+        <activity android:name=".loading01.Loading01Activity"/>
+        <activity android:name=".timezhou.TimeMainActivity"/>
+        <activity android:name=".waterloading.WaveActivty"/>
+        <activity android:name=".biaopan.BPMainActivity"/>
+        <activity android:name=".miclock.MiClockActivity"/>
+        <activity android:name=".zfjp.ZFJPMainActivity" />
+        <activity android:name=".zfjp.NormalKeyBoardActivity" />
+        <activity android:name=".zfjp.PaymentKeyBoardActivity"/>
+    </application>
+
+</manifest>
