@@ -27,6 +27,10 @@
         <activity android:name=".zfjp.ZFJPMainActivity" />
         <activity android:name=".zfjp.NormalKeyBoardActivity" />
         <activity android:name=".zfjp.PaymentKeyBoardActivity"/>
+        <activity android:name=".menu.MenuActivity"/>
+        <activity android:name=".zpcj.ZPCJActivity"/>
+        <activity android:name=".water.SigleWaveActivity"/>
+        <activity android:name=".water.WaveActivity"/>
     </application>
 
 </manifest>

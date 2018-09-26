@@ -22,6 +22,7 @@ public class BPMainActivity extends AppCompatActivity implements View.OnClickLis
     private DashboardView2 mDashboardView2;
     private DashboardView3 mDashboardView3;
     private DashboardView4 mDashboardView4;
+    private ZhimaView mZhimaView;
 
     private boolean isAnimFinished = true;
 
@@ -29,7 +30,7 @@ public class BPMainActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.biaopan_main);
-        
+        mZhimaView = (ZhimaView) findViewById(R.id.mzhimaview);
         mDashboardView1 = (DashboardView1) findViewById(R.id.dashboard_view_1);
         mDashboardView2 = (DashboardView2) findViewById(R.id.dashboard_view_2);
         mDashboardView3 = (DashboardView3) findViewById(R.id.dashboard_view_3);

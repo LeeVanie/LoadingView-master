@@ -100,7 +100,7 @@ public class FlowMainActivity extends AppCompatActivity {
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-//                        mColorFlowTagLayout.clearAllOption();
+                        mColorFlowTagLayout.clearAllOption();
                         mSizeFlowTagLayout.clearAllOption();
                         mMobileFlowTagLayout.clearAllOption();
                     }
@@ -109,8 +109,8 @@ public class FlowMainActivity extends AppCompatActivity {
 
     private void initMobileData() {
         List<String> dataSource = new ArrayList<>();
-        dataSource.add("android");
-        dataSource.add("安卓");
+        dataSource.add("androidandroidandroidandroidandroidandroidandroidandroidandroidandroidandroid");
+        dataSource.add("安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓安卓");
         dataSource.add("SDK源码");
         dataSource.add("IOS");
         dataSource.add("iPhone");

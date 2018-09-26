@@ -20,19 +20,15 @@ import cxy.com.loadingview.download.DownLoadActivity;
 import cxy.com.loadingview.flow01.FlowMainActivity;
 import cxy.com.loadingview.loading.LoadMainActivity;
 import cxy.com.loadingview.loading01.Loading01Activity;
+import cxy.com.loadingview.menu.MenuActivity;
 import cxy.com.loadingview.miclock.MiClockActivity;
 import cxy.com.loadingview.timezhou.TimeMainActivity;
+import cxy.com.loadingview.water.SigleWaveActivity;
+import cxy.com.loadingview.water.WaveActivity;
 import cxy.com.loadingview.waterloading.WaveActivty;
 import cxy.com.loadingview.zfjp.ZFJPMainActivity;
+import cxy.com.loadingview.zpcj.ZPCJActivity;
 
-/**
- * @类名: ${type_name}
- * @功能描述:
- * @作者: ${user}
- * @时间: ${date}
- * @最后修改者:
- * @最后修改内容:
- */
 public class MainActivity extends AppCompatActivity {
     
     private ListView listview;
@@ -82,6 +78,18 @@ public class MainActivity extends AppCompatActivity {
                     case 8:
                         startActivity(new Intent(MainActivity.this, ZFJPMainActivity.class));
                         break;
+                    case 9:
+                        startActivity(new Intent(MainActivity.this, MenuActivity.class));
+                        break;
+                    case 10:
+                        startActivity(new Intent(MainActivity.this, ZPCJActivity.class));
+                        break;
+                    case 11:
+                        startActivity(new Intent(MainActivity.this, SigleWaveActivity.class));
+                        break;
+                    case 12:
+                        startActivity(new Intent(MainActivity.this, WaveActivity.class));
+                        break;
                 }
             }
         });
@@ -98,6 +106,10 @@ public class MainActivity extends AppCompatActivity {
         mStringList.add("表盘样式");
         mStringList.add("小米时钟");
         mStringList.add("支付键盘");
+        mStringList.add("菜单");
+        mStringList.add("转盘抽奖");
+        mStringList.add("一个水波");
+        mStringList.add("多个水波");
     }
 }
 //jhfghfh
