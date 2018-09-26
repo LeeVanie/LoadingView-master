@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:guaguaka="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <cxy.com.loadingview.ggl.GuaView
+        android:id="@+id/st_guaguaka"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        guaguaka:isAward="true"
+        guaguaka:text="￥ 5 0 0 万"
+        guaguaka:textColor="#adfdef"
+        guaguaka:textSize="50sp" />
+
+    <cxy.com.loadingview.ggl.GuaView
+        android:id="@+id/st_guaguaka2"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/st_guaguaka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <cxy.com.loadingview.ggl.RipClothes
+        android:id="@+id/rc_rip"
+        android:layout_below="@id/st_guaguaka2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

@@ -18,6 +18,7 @@ import java.util.Map;
 import cxy.com.loadingview.biaopan.BPMainActivity;
 import cxy.com.loadingview.download.DownLoadActivity;
 import cxy.com.loadingview.flow01.FlowMainActivity;
+import cxy.com.loadingview.ggl.GGLActivity;
 import cxy.com.loadingview.loading.LoadMainActivity;
 import cxy.com.loadingview.loading01.Loading01Activity;
 import cxy.com.loadingview.menu.MenuActivity;
@@ -90,6 +91,9 @@ public class MainActivity extends AppCompatActivity {
                     case 12:
                         startActivity(new Intent(MainActivity.this, WaveActivity.class));
                         break;
+                    case 13:
+                        startActivity(new Intent(MainActivity.this, GGLActivity.class));
+                        break;
                 }
             }
         });
@@ -110,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
         mStringList.add("转盘抽奖");
         mStringList.add("一个水波");
         mStringList.add("多个水波");
+        mStringList.add("刮刮乐");
     }
 }
 //jhfghfh

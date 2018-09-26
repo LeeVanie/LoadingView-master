@@ -31,6 +31,7 @@
         <activity android:name=".zpcj.ZPCJActivity"/>
         <activity android:name=".water.SigleWaveActivity"/>
         <activity android:name=".water.WaveActivity"/>
+        <activity android:name=".ggl.GGLActivity"/>
     </application>
 
 </manifest>
